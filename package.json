@@ -1,14 +1,15 @@
 {
   "name": "my-tiny-api",
-  "version": "1.0.3",
-  "description": "",
+  "version": "1.0.4",
+  "repository": "github:coding-nerfilio/my-tiny-api",
+  "description": "my-tiny-api is a Node.js package designed to scaffold a Express CRUD API REST for TypeORM entities with validation.",
   "main": ".dist/index.js",
   "types": ".dist/index.d.ts",
   "scripts": {
     "watch": "tsc -w"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["nodejs","typeorm","api","express"],
+  "author": "coding-nerfilio",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
